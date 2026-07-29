@@ -16,7 +16,7 @@ A network intrusion detection system that uses an LSTM neural network to classif
 
 ```
 .
-├── app.py                                   # Flask + Socket.IO detection server
+├── app.py                                    # Flask + Socket.IO detection server
 ├── sniffer.py                                # Live packet capture -> feature extraction -> server
 ├── attack.py                                 # SYN-flood traffic generator (for local testing)
 ├── victime_site.py                           # Mock victim web server (Flask, port 8080)
@@ -27,6 +27,7 @@ A network intrusion detection system that uses an LSTM neural network to classif
 ├── DDoS_LSTM.ipynb                           # LSTM training notebook
 ├── DDoS_Detection_LSTM.ipynb                 # LSTM training/evaluation notebook
 └── DDoS_Detection(Models_Comparison).ipynb   # SVM vs CNN vs LSTM comparison notebook
+└── Portmap.zip                               # Zip file containing training dataset Portmap.csv
 ```
 
 ## Model
