@@ -26,7 +26,7 @@ A network intrusion detection system that uses an LSTM neural network to classif
 ├── scaler.pkl                                # Fitted StandardScaler used at inference time
 ├── DDoS_LSTM.ipynb                           # LSTM training notebook
 ├── DDoS_Detection_LSTM.ipynb                 # LSTM training/evaluation notebook
-└── DDoS_Detection(Models_Comparison).ipynb   # SVM vs CNN vs LSTM comparison notebook
+├── DDoS_Detection(Models_Comparison).ipynb   # SVM vs CNN vs LSTM comparison notebook
 └── Portmap.zip                               # Zip file containing training dataset Portmap.csv
 ```
 
