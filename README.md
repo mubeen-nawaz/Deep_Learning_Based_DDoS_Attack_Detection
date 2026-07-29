@@ -103,6 +103,3 @@ Sends a continuous stream of TCP SYN packets to `127.0.0.1:8080` to simulate a f
 - The detection threshold (`avg_prob > 0.85` over the last 10 packets) is tuned for the demo and may need adjustment for other environments or datasets.
 - Capturing live traffic typically requires elevated/administrator privileges.
 
-## License
-
-No license specified. Add a `LICENSE` file if you intend to share or reuse this code.
